@@ -1,0 +1,19 @@
+{
+  "name": "node-cf-event-hub-example",
+  "version": "0.1.0",
+  "description": "A sample Node.js app to connect with Azure Event Hub",
+  "engines": {
+    "node": "8.11.2"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "azure-event-hubs": "0.2.5",
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "license": "MIT"
+}

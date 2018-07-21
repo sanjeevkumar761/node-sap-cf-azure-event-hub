@@ -1,0 +1,9 @@
+---
+applications:
+- name: node-cf-event-hub
+  memory: 512M
+  instances: 1
+  random-route: true
+env:
+  EVENTHUB_CONNECTION_STRING: <Azure EventHub Connection String>
+  EVENTHUB_NAME: <Azure EventHub Name>
